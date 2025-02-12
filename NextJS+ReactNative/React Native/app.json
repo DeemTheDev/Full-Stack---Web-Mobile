@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "hope",
+    "slug": "hope",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00D09E"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon": ""
+    },
+    "plugins": [
+      ["expo-router", {"origin": "https://hopefoundation.com/"}]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
